@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>성예은</title>
+	<style>
+		html{scroll-behavior: smooth;}
+	    p{font-size: 18px; margin: 0; padding: 0;}
+		body{overflow-x: hidden;
+		     font-family:'pretendard', sans-serif;
+		     text-align: center;
+		     line-height: 1.5;
+		     margin: 0px;
+		     background: black;
+		     color: white;
+		     padding: 0;
+		     }
+		section, h1{margin: 0; padding: 0;}
+		.warp{width: 1800px; margin: auto;}
+		.span{display: flex;
+	          gap: 282px;
+	          position: fixed;
+	          z-index: 9999;
+	          padding: 10px;
+	          background-color:rgba(0,0,0,0.5);
+	          }
+	    .bg{background-image: url('1.png');
+	        background-size: cover;
+	        background-attachment: fixed;
+	        background-position: center;
+	        margin: 0px 0px 30px;
+	       }
+	    .bg1{background-image: url('3.png');
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
+			height: 700px;
+			margin: 60px;
+			position: relative;
+	         }
+	    .bg2{height: 600px;
+	    	background: linear-gradient(#000000, #4741FF, #FFFFFF);
+	    	}
+	    .bg4{background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('8.gif');
+	        background-attachment: fixed;
+	        background-size: 110px auto;
+			 }
+		.bg5{background-color: white;
+			 background-image: url('27.png');
+			 background-repeat: no-repeat;
+			 background-size: 100%;
+			 background-position: center 100px;
+		     color: black;
+		     padding:0 0 350px 0;
+		     }
+		.bg6{background-image: url('28.png');
+			 background-color: white;
+			 background-size: 1000px;
+			 background-position: center 400px;
+			 background-repeat: no-repeat;
+			 display: flex;
+			 justify-content: center;
+			 align-items: center;
+			 flex-direction: column;
+			 padding: 200px 0;
+			}
+	    .bg7{background-color: white;
+	    	 color: black;
+             margin: 0;
+	         }
+	    .fade{height: 100px;
+	    	background: linear-gradient(#000000, #4741FF, #FFFFFF);
+	    	 }
+	    .fade2{height: 100px;
+	    	background: linear-gradient(#FFFFFF,#000000);
+	    	margin: 0; padding: 0;
+	    	 }
+	    .tb{padding: 400px;
+	    	white-space: nowrap;
+	        }
+	    .tb1{background-color:#FBFBFB;
+	        color: black;
+	        }
+	    .tb2{width: 370px;
+	    	margin: 0 auto;
+	        text-align: left;
+	        word-break: break-word;
+	        position: relative;
+	        top: 117px;
+	        }
+	    .tb3{background-color: #4741FF;
+	    	padding:50px 0;
+	         }    
+	    .tb5{padding: 500px 900px;
+	    	overflow-x: hidden;
+	    	text-align: center;
+	    	 }
+	    .tb6{margin: 560px 0 300px 300px;}
+	    .tb7{margin: 500px 200px 300px 0;}
+	    .img1{display: flex;
+	    	justify-content: flex-start;
+	    	align-items: flex-start;
+	    	  gap: 300px;
+	    	  }
+	    .img2{width: 1900px;}
+	    .button{display: flex;
+	        gap: 120px;
+	        justify-content: center;
+	        position: relative;
+	        top: 140px;
+	        }
+	    .span a {color:#D8D8D8;
+	    	text-decoration: none;
+	        }
+	    .span a:visited {color:#D8D8D8;
+	    	text-decoration: none;
+	        } 
+	    .split{display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap:0;
+			margin: 0;  
+			padding: 0;
+			}
+		.split1,.split2,.split3,.split4{
+			display: flex;
+			flex-direction: row;
+			margin: 0;
+			padding: 0;
+			gap: 0;
+		    }
+		.split img {
+			width: 900px;           
+			height: auto; 
+			display: block;
+		    }
+	    .m1{margin-top: 300px;
+	    	animation: curveMove 2s infinite ease-in-out;
+	        }
+	    .m2{margin-top: 250px;
+	    	margin-bottom: 350px;
+	    	animation: curveMove 2s infinite ease-in-out;
+	        }
+	    .footer{display: flex;
+		        justify-content: center;
+		        gap: 200px;
+		        margin-top: 100px;
+		        padding: 40px 0;
+		        font-weight: 100;
+		        text-align: left;
+		        }
+		.recipt{opacity: 0;
+			    animation: opa 6s ease-out infinite;
+			    margin-top: -120px;
+			    }
+	    @keyframes curveMove{
+		  0%{transform:translateX(0) translateY(0);}
+		  50%{transform:translateX(80px) translateY(-30px);}
+		  100% {transform:translateX(0) translateY(0);}
+		 }
+		 @keyframes opa {
+			0%{opacity:0; transform: translateY(-40px);}
+			30%{opacity:1; transform: translateY(0);}
+			75%{opacity:1; transform: translateY(0);}
+			100%{opacity:0; transform: translateY(-40px);}
+		 }
+	</style>
+</head>
+<body>
+	<section>
+		<div class="warp">
+			<div class="span">
+				<a href="#Home">Home</a>
+				<a href="#Intro">Intro</a>
+				<a href="#Description">Description</a>
+				<a href="#Example">Example</a>
+				<a href="#Finish">Finish</a>
+				<a href="#Footer">Footer</a>
+			</div>
+	    </div>
+	</section>
+
+	<section id="Home"> 
+		<div class="warp">
+		    <div class="bg">
+		    	<div class="tb">
+					<h1 style="font-size: 90px; position: absolute; text-align: left; top: 164px; left:380px;">디자인된<br>게으름</h1>
+					<h1 style="font-size: 30px; position: absolute; text-align: left; top: 397px; left:806px;">우리는</h1>
+					<h1 style="font-size: 30px; position: absolute; text-align: left; top: 458px; left:1200px;">에<br>길들여져<br>있다</h1>
+					<p style="position: absolute;top: 250px; left: 709px; color:#969696;">사용자를 조종하는 디자인</p>
+			    </div>
+		    </div>
+	    </div>
+	</section>
+
+	<div class="tb1">
+	    <div class="fade"></div>
+		<section id="Intro">
+			<div class="warp">
+				<div class="img1">
+			    	<div class="tb6">
+				        <p style="text-align: left; font-size: 25px; font-weight: 600;">
+				    	이런 화면 보신적 있나요?
+				    	</p>
+				    	<p style="text-align: left;">
+				    	“이 웹사이트의 쿠키를 사용하겠습니까?”<br>“새로운 업데이트를 설치하시겠습니까?”<br>“자동결제를 허용합니다.”</p>
+				    </div>
+				    <div class="m1">
+				    	<img src="5.png">
+				    </div>
+				</div>
+				<div class="img1">
+					<div class="m2">
+					    <img src="6.png">
+				    </div>
+				    <div class="tb7">
+				        <p style="text-align: right;">“서비스를 계속 이용하려면 동의가 필요합니다.”<br>“개인정보 이용약관에 동의하십니까?”</p>
+				    </div>
+				</div>
+		    </div>
+		</section>
+
+		<section>
+			<div class="warp" id="비동의">
+				<h1 style="font-size: 30px; margin-bottom: 100px; background-color: #DFDEFF; padding: 3px 20px; display: inline-block; border: 2px solid #4741FF;">모두 동의하시겠습니까?</h1>
+				<div class="bg1">
+					<div class="tb2">
+						<p>[개인정보 수집 및 이용 안내]<br><br>더 나은 서비스 제공을 위해 회원님의 개인정보를 수집 및 이용합니다.수집된 정보는 맞춤형 콘텐츠 제공, 이용 통계 분석, 서비스 품질 개선 및 고객 응대에 활용 됩니다.회사는 필요한 최소한의 정보만을 수집하며, 이용 목적이 달성된 후에는 관련 법령에 따라 안전하게 파기됩니다. 고객님은 개인정보 제공에 동의하지 않을 권리가 있으며, 미동의 시 일부 서비스 이용이 제한될 수 있습니다.자세한 내용은 [개인정보처리방침]에서 확인하실 수 있습니다...[더보기]</p>
+				        <p>개인정보 수집 및 이용에 동의하시겠습니까?</p>
+			        </div>
+				    <div class="button">
+				        <a href="#동의" style="background:#4741FF; padding: 14px 34px; border-radius: 10px; font-size: 21px; font-weight: 700; color: white;">동의</a>
+				        <a href="#비동의" style="background-color:#D9D9D9; padding: 14px 34px; border-radius: 10px; font-size: 21px; font-weight: 700; color: white;">비동의</a>
+				    </div>
+	            </div>
+            </div>
+		</section>
+		<div class="fade2" style="margin-top: 200px;"></div>
+    </div>
+
+	<section id="Description">
+		<div class="warp">
+			<h1 id="동의" style="margin: 300px;">.<br>.<br>.<br>동의 하셨군요! (˶ᵔ ᵕ ᵔ˶)</h1>
+			
+				<div class="split">
+					<div class="split1">
+						  <img src="7.png">
+						  <img src="1.gif">
+					</div>
+					<div class="split2">
+						  <img src="3.gif">
+						  <img src="9.png">
+					</div>
+					<div class="split3">
+						  <img src="10.png">
+						  <img src="2.gif">
+					</div>
+					<div class="split4">
+						  <img src="4.gif">
+						  <img src="8.png">
+					</div>
+			    </div>
+			
+		    <div class="tb5">
+		        <h1>그렇다면 개인정보 처리방식에 모두 동의한 것으로 간주하여 사용자의 개인정보를 자유롭게 사용할 것을 대충 알립니다</h1>
+		    </div>
+	    </div>
+	</section>
+
+	<p style="font-size: 200px; margin:0; line-height:1; color:#4741FF;">Warning!Warning!Warning!</p>
+	<section class="bg4">
+		<div class="warp">
+		 	<img src="11.png" style="width: 600px; margin: 100px;">
+	    </div>
+	</section>
+	<p style="font-size: 200px; margin: 0 0 350px 0; line-height:0.754; color:#4741FF;">Warning!Warning!Warning!</p>
+
+    <section id="Example" class="bg5">
+        <div class="warp">
+        	<img src="24.png" class="img2">
+    		<h1 style="margin: 250px 0 50px 0;">깜짝 놀라셨나요?</h1>
+    		<p style="margin-bottom:100px;">방금 당신은 아무 생각 없이 <b style="color:#4741FF; margin-bottom: 200px;">'동의'</b>를 눌렀습니다.<br>이것이 바로 유도형 디자인이며<br>시각적 대비, 버튼 색상, 문구 순서 등등...<br>모두 당신의 클릭을 유도하기 위해 만들어졌습니다.</p>
+
+        </div>
+    </section>
+
+    <section class="bg6">
+        <div class="warp">
+        	<img src="30.png" class="recipt">
+        </div>
+    </section>
+
+     <section class="bg7">
+        <div class="warp">
+        	<p style="margin-bottom: 200px; margin-top: -50px; font-size: 20px;"><span style="color: red">*위쪽 영수증에 사용자들이 입는 피해를 내역처럼 작성할 예정입니다(편집을 덜함)</span><br>우리는 알지 못한 채 결제하고<br>익숙하게 개인정보를 넘겨주고 있습니다.</p>
+        	<img src="31.png" style="width: 1900px; margin: 0; padding: 0; display: block;">
+        </div>
+    </section>
+
+	<img src="31.png" style="width: 600px;">
+	<section>
+		<div class="warp">
+			<div class="bg2">
+				<h1>정기구독<br>자동갱신</h1>
+				<p>해지는 어렵게, 결제는 자동으로 구독 취소의 번거로움 이용함</p>
+				<h1>추천 옵션 포함</h1>
+				<p>추가 옵션이 이미 선택된 옵션을 상단에 제시함으로써 사용자는 기본옵션으로 인식 후 결제 정확한 정보 서치의 번거로움 이용</p>
+				<h1>가짜 긴급성<br>디자인</h1>
+				<p>지금 결정하지 않으면 손해 본다는 압박을 가함으로써 가격을 제대로 다시 따져볼 시간을 부족하게 만들고, 촉박한 마음 때문에 빠르게 결제하게 됨</p>
+			</div>
+	    </div>
+	</section>
+
+	<section>
+		<div class="warp">
+			<div class="footer">
+				<p>About<br>Beyond<br>Convenience<br>Exploring<br>the designed<br>laziness of<br>modern<br>interfaces</p>
+				<p>Concept<br>Beyond<br>Convenience<br>Exploring<br>the designed<br>laziness of<br>modern<br>interfaces</p>
+			    <p>Creator<br>Beyond<br>Convenience<br>Exploring<br>the designed<br>laziness of<br>modern<br>interfaces</p>
+			    <p>Contact<br>Beyond<br>Convenience<br>Exploring<br>the designed<br>laziness of<br>modern<br>interfaces</p>
+		    </div>
+		    <div style="height:1px; background-color:#D9D9D9; width:70%; margin:40px auto;"></div>
+		    <p style="margin-bottom: 200px;">© 2025 Seong Yeeun. All rights reserved. *푸터 수정중</p>
+	    </div>
+	</section>
+</body>
+</html>
